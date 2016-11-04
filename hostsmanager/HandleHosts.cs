@@ -9,18 +9,19 @@ using System.Windows.Forms;
 
 namespace hostsmanager
 {
-    public class HandleHosts  
+    public class HandleHosts
     {
-        public HandleHosts() { 
+        public HandleHosts()
+        {
         }
         private List<string> originHosts = new List<string>();
         private List<string> newHosts = new List<string>();
-
+        
 
         private static string systemPath = Environment.GetFolderPath(Environment.SpecialFolder.System);
         private static string path = System.IO.Path.Combine(systemPath, @"drivers\etc\hosts");
 
- 
+
         public void ReadHosttoVariable()
         {
             string line;
@@ -41,7 +42,7 @@ namespace hostsmanager
                 ReadHosttoVariable();
                 newHosts.RemoveRange(0, newHosts.Count);
                 newHosts.Add("#############hosts remapper start#############");
-                foreach (var item in  Form1._Form1.getTextboxLines())
+                foreach (var item in Form1._Form1.getTextboxLines())
                 {
                     newHosts.Add(item);
                 }
@@ -68,7 +69,7 @@ namespace hostsmanager
             }
         }
         public void resetHost()
-        { 
+        {
             System.IO.StreamReader hostFile = new System.IO.StreamReader(path);
             string line;
             List<string> hostsList = new List<string>();
@@ -127,11 +128,51 @@ namespace hostsmanager
             }
         }
 
-        public void loadHostsfile() {
+        public void loadHostsfile()
+        {
             ReadHosttoVariable();
-            Form1._Form1.setTextboxLines(originHosts); 
+            Form1._Form1.setTextboxLines(originHosts);
         }
-       
+
+        public void defaultLoadFile()
+        {
+            try
+            {
+                string line;
+                string file = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(Application.ExecutablePath), @"hostmanager.txt");
+
+                System.IO.StreamReader hostFile = new System.IO.StreamReader(file);  
+                List<string> list = new List<string>();
+
+                while ((line = hostFile.ReadLine()) != null)
+                {
+                    list.Add(line);
+                }
+                hostFile.Dispose();
+                hostFile.Close();
+                Form1._Form1.setTextboxLines(list);
+            }
+            catch(Exception ex) { } 
+        }
+        public void defaultSaveFile()
+        {
+            try
+            { 
+                string file = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(Application.ExecutablePath), @"hostmanager.txt");    
+                using (FileStream fs = new FileStream(file, FileMode.OpenOrCreate, FileAccess.Write))
+                using (StreamWriter sw = new StreamWriter(fs))
+                {
+                    fs.SetLength(0);
+                    foreach (var item in Form1._Form1.getTextboxLines())
+                    {
+                        sw.WriteLine(item);
+                    } 
+                    dispose(fs, sw);
+                } 
+            }
+            catch (Exception ex) { }
+        }
+
         public void ballonTip(string msg)
         {
             var notification = new System.Windows.Forms.NotifyIcon()
