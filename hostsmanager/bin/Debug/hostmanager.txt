@@ -1,0 +1,44 @@
+
+172.17.113.244 t.onstyle.tving.com
+172.17.113.244   onstyle.tving.com
+############## 티빙 관련 #######################
+
+#티빙 전환 Test
+172.17.113.227 tvn.tving.com tvn.m.tving.com otvn.tving.com otvn.m.tving.com ocnseries.tving.com ocnseries.m.tving.com
+172.17.113.227 chcgv.tving.com chcgv.m.tving.com superaction.tving.com superaction.m.tving.com
+172.17.113.227 ocn.tving.com ocn.m.tving.com catchon.tving.com catchon.m.tving.com zhtv.tving.com zhtv.m.tving.com uxn.tving.com uxn.m.tving.com 
+172.17.113.227 ongamenet.tving.com ongamenet.m.tving.com ogn.tving.com ogn.m.tving.com
+172.17.113.227 olive.tving.com xtm.tving.com onstyle.tving.com onstyle.m.tving.com 
+172.17.113.227 enews24.tving.com enews24.m.tving.com
+172.17.113.227 getitbeauty.tving.com getitbeauty.m.tving.com
+172.17.113.227 program.tving.com program.m.tving.com info.tving.com
+172.17.113.227 event.tving.com
+172.17.113.243 olive.m.tving.com xtm.m.tving.com
+172.17.113.241 search.style.tving.com
+
+ 
+
+172.17.113.227 tvn.interest.me otvn.interest.me ocnseries.interest.me chcgv.interest.me catchon.interest.me zhtv.interest.me uxn.interest.me superaction.interest.me 
+172.17.113.227 ocn.interest.me olive.interest.me xtm.interest.me onstyle.lifestyler.co.kr monstyle.lifestyler.co.kr
+172.17.113.227 ogn.interest.me ongamenet.interest.me
+172.17.113.227 enews24.interest.me m.enews24.interest.me
+172.17.113.227 getitbeauty.interest.me getitbeauty.lifestyler.co.kr
+172.17.113.227 www.lifestyler.co.kr m.lifestyler.co.kr
+172.17.113.227 ch.interest.me program.interest.me program.lifestyler.co.kr cs.interest.me
+172.17.113.227 giftmap.interest.me
+172.17.113.243 m.olive.lifestyler.co.kr m.xtm.lifestyler.co.kr
+172.17.113.241 search.style.interest.me
+
+ 
+
+# 마케팅 도메인 리다이텍트
+172.17.113.227 www.chtvn.com www.xtmtv.co.kr no1ocn.net snl.tving.com
+ 
+############## 티빙 관련 끝 ###################
+
+
+ 
+
+
+
+

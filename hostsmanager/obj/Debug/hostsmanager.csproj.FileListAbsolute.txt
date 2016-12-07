@@ -1,9 +1,8 @@
-D:\3.Git\hostsmanager\hostsmanager\bin\Debug\hostsmanager.exe
 D:\3.Git\hostsmanager\hostsmanager\bin\Debug\hostsmanager.exe.config
+D:\3.Git\hostsmanager\hostsmanager\bin\Debug\hostsmanager.exe
+D:\3.Git\hostsmanager\hostsmanager\bin\Debug\hostsmanager.pdb
 D:\3.Git\hostsmanager\hostsmanager\obj\Debug\hostsmanager.Form1.resources
 D:\3.Git\hostsmanager\hostsmanager\obj\Debug\hostsmanager.Properties.Resources.resources
 D:\3.Git\hostsmanager\hostsmanager\obj\Debug\hostsmanager.csproj.GenerateResource.Cache
 D:\3.Git\hostsmanager\hostsmanager\obj\Debug\hostsmanager.exe
 D:\3.Git\hostsmanager\hostsmanager\obj\Debug\hostsmanager.pdb
-D:\3.Git\hostsmanager\hostsmanager\bin\Debug\hostsmanager.pdb
-D:\3.Git\hostsmanager\hostsmanager\obj\Debug\hostsmanager.csprojResolveAssemblyReference.cache

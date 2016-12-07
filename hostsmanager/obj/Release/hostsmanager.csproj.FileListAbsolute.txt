@@ -7,11 +7,3 @@ D:\1.proj\git\hostmanager\hostsmanager\hostsmanager\obj\Release\hostsmanager.csp
 D:\1.proj\git\hostmanager\hostsmanager\hostsmanager\obj\Release\hostsmanager.exe
 D:\1.proj\git\hostmanager\hostsmanager\hostsmanager\obj\Release\hostsmanager.pdb
 D:\1.proj\git\hostmanager\hostsmanager\hostsmanager\obj\Release\hostsmanager.csprojResolveAssemblyReference.cache
-D:\3.Git\hostsmanager\hostsmanager\bin\Release\hostsmanager.exe.config
-D:\3.Git\hostsmanager\hostsmanager\bin\Release\hostsmanager.exe
-D:\3.Git\hostsmanager\hostsmanager\bin\Release\hostsmanager.pdb
-D:\3.Git\hostsmanager\hostsmanager\obj\Release\hostsmanager.Form1.resources
-D:\3.Git\hostsmanager\hostsmanager\obj\Release\hostsmanager.Properties.Resources.resources
-D:\3.Git\hostsmanager\hostsmanager\obj\Release\hostsmanager.csproj.GenerateResource.Cache
-D:\3.Git\hostsmanager\hostsmanager\obj\Release\hostsmanager.exe
-D:\3.Git\hostsmanager\hostsmanager\obj\Release\hostsmanager.pdb

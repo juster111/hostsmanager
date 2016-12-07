@@ -62,6 +62,7 @@ namespace hostsmanager
                     dispose(fs, sw);
                 }
                 ballonTip("host가 등록된 ip-dns로 override 되었습니다. ");
+
             }
             catch
             {
@@ -76,16 +77,13 @@ namespace hostsmanager
             while ((line = hostFile.ReadLine()) != null)
             {
                 hostsList.Add(line);
-            }
-
+            } 
             bool isOverride = true;
             try
             {
                 while (isOverride)
                 {
-                    int startAt = 0;
-                    int endAt = 0;
-                    int index = 0;
+                    int startAt = 0; int endAt = 0; int index = 0;
                     isOverride = false;
                     foreach (var item in hostsList)
                     {
@@ -182,7 +180,7 @@ namespace hostsmanager
                 BalloonTipText = msg,
             };
             notification.ShowBalloonTip(2);
-            Thread.Sleep(2000);
+            Thread.Sleep(1000);
             notification.Dispose();
         }
         private void dispose(FileStream fs, StreamWriter sw)
